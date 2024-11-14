@@ -24,7 +24,7 @@ function caseItem({ itemInfo }) {
   return (
     <div className='case-item' style={{ borderBottom: `solid 2px ${colors[itemInfo.type]}`  }}>
       <div className='case-item__img'>
-        <img src={`/kilowatt-case/${itemInfo.name.replace(/ \| /g, ' ')}.png`} alt="prize" />
+        <img src={`./kilowatt-case/${itemInfo.name.replace(/ \| /g, ' ')}.png`} alt="prize" />
       </div>
       <div className='case-item__name' dangerouslySetInnerHTML={{ __html: formattedString }}></div>
     </div>
