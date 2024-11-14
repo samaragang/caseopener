@@ -1,0 +1,32 @@
+.case-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: var(--case-item-size);
+  height: var(--case-item-size);
+  margin: 0 5px;
+}
+
+.case-item__img {
+  width: var(--case-item-size);
+  height: var(--case-item-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -5px;
+  transition: transform .7s;
+}
+
+.case-item__img>img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.case-item__name {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
